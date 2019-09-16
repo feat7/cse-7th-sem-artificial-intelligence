@@ -12,3 +12,13 @@
 ;Evaluating expressions
 ;(60*9/5)+32
 (write(+ (* 60 (/ 9 5)) 32))
+
+(setq x 42)
+(setq y 18)
+
+(print (+ x y))
+(print (* x y))
+(print (/ x y))
+(print (- x y))
+
+(print (mod x y))
